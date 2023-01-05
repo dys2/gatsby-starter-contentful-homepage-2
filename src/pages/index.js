@@ -6,6 +6,8 @@ import Fallback from "../components/fallback"
 import SEOHead from "../components/head"
 
 export default function Homepage(props) {
+  console.log(props);
+
   const { homepage } = props.data
 
   return (
